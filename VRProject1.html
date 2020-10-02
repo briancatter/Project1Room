@@ -8,22 +8,22 @@
   </head>
   <body>
     <a-scene background="color: #FAFAFA">
-      
+
       // Floor/walls/ceiling
-      <a-plane position="0 0 0" rotation="-90 0 0" width="10" height="10" color="#7BA8A4"></a-plane>
-      <a-plane position="0 5 -5" rotation="0 0 0" width="10" height="10" color="#7BA8A4"></a-plane>
-      <a-plane position="0 5 5" rotation="180 0 0" width="10" height="10" color="#7BA8A4"></a-plane>
-      <a-plane position="-5 5 0" rotation="0 90 0" width="10" height="10" color="#7BA8A4"></a-plane>
-      <a-plane position="5 5 0" rotation="0 270 0" width="10" height="10" color="#7BA8A4"></a-plane>
-      <a-plane position="0 10 0" rotation="90 0 0" width="10" height="10" color="#7BA8A4"></a-plane>
-      
+      <a-plane src="https://i.imgur.com/LxPhNa7.jpg" position="0 0 0" rotation="-90 0 0" width="10" height="10"></a-plane>
+      <a-plane src="https://i.imgur.com/lrznAwV.jpg" position="0 5 -5" rotation="0 0 0" width="10" height="10"></a-plane>
+      <a-plane color="#B0B0AA" position="0 5 5" rotation="180 0 0" width="10" height="10"></a-plane>
+      <a-plane color="#B0B0AA" position="-5 5 0" rotation="0 90 0" width="10" height="10"></a-plane>
+      <a-plane color="#B0B0AA" position="5 5 0" rotation="0 270 0" width="10" height="10"></a-plane>
+      <a-plane src="https://i.imgur.com/DkMMtNv.jpg" position="0 10 0" rotation="90 0 0" width="10" height="10"></a-plane>
+
       // TV
       <a-box height="1.2" width="2" depth="0.2" position="0 2 -4.9" rotation="0 0 0" color="#050505" shadow></a-box>
       <a-box position="0 2 -4.82" src="https://i.imgur.com/U5Ccc0f.gif" height="1.15" width="1.95" depth="0.05" rotation="0 0 0" color="#ffffff"></a-box>
-      
+
       // Globe
       <a-sphere src="https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/space/earth_atmos_4096.jpg" position="1 0.55 -4.4" radius="0.3" shadow></a-sphere>
-      
+
       // Chandelier
       <a-cylinder position="0 8.5 0" radius="0.05" height="3" color="#3f3f3f" shadow></a-cylinder>
       <a-cylinder position="0 7 0" radius="0.05" height="3" color="#3f3f3f" rotation="90 0 0" shadow></a-cylinder>
@@ -36,7 +36,7 @@
       <a-entity light="type: point; color: #FFE; intensity: 0.35" position="-1.5 7 0"></a-entity>
       <a-entity light="type: point; color: #FFE; intensity: 0.35" position="0 7 -1.5"></a-entity>
       <a-entity light="type: point; color: #FFE; intensity: 0.35" position="0 7 1.5"></a-entity>
-      
+
       // Entertainment Stand
       <a-box height="0.1" width="3" depth="1" position="0 1 -4.5" color="#4f2f1f"></a-box>
       <a-box height="0.1" width="3" depth="1" position="0 0.2 -4.5" color="#4f2f1f"></a-box>
@@ -44,13 +44,13 @@
       <a-box height="1" width="0.2" depth="0.1" position="-1.4 0.5 -4.95" color="#4f2f1f"></a-box>
       <a-box height="1" width="0.2" depth="0.1" position="1.4 0.5 -4.05" color="#4f2f1f"></a-box>
       <a-box height="1" width="0.2" depth="0.1" position="-1.4 0.5 -4.05" color="#4f2f1f"></a-box>
-      
+
       // Cable box
       <a-box height="0.12" width="0.6" depth="0.3" position="-1 0.3 -4.5" color="#252525"></a-box>
       <a-box height="0.09" width="0.4" depth="0.1" position="-0.96 0.3 -4.395" color="#101010"></a-box>
       <a-circle radius="0.01" position="-1.195 0.3 -4.345" color="#00ff00"></a-circle>
       <a-circle radius="0.01" position="-1.255 0.3 -4.345" color="#ff0000"></a-circle>
-      
+
       // Sofa
       <a-cylinder height="0.25" radius="0.04" position="-0.85 0.3 -1.1" color="#4f2f1f" rotation="-15 0 -15"></a-cylinder>
       <a-cylinder height="0.25" radius="0.04" position="0.85 0.3 -1.1" color="#4f2f1f" rotation="-15 0 15"></a-cylinder>
@@ -60,27 +60,27 @@
       <a-box height="0.8" width="2" depth="0.1" position="0 0.85 -0.98" color="#2f0000" rotation="10 0 0"></a-box>
       <a-box height="0.4" width="0.2" depth="1" position="0.9 0.7 -1.5" color="#2f0000"></a-box>
       <a-box height="0.4" width="0.2" depth="1" position="-0.9 0.7 -1.5" color="#2f0000"></a-box>
-      
+
       // Hanging pictures
       <a-plane position="0 4.5 -4.975" height="3.2" width="4.2" color="#4f2f1f"></a-plane>
       <a-plane src="https://i.imgur.com/0U9PLGB.jpg" position="0 4.5 -4.95" height="3" width="4"></a-plane>
       <a-plane position="0 4.5 4.975" rotation="180 0 0" height="3.2" width="4.2" color="#4f2f1f"></a-plane>
       <a-plane src="https://i.imgur.com/nG4Gnt0.jpg" rotation="0 180 0" position="0 4.5 4.95" height="3" width="4"></a-plane>
-      
+
       // Counter
       <a-box height="1.25" width="3" depth="0.8" position="0 0.5 4.6" color="#4f2f1f"></a-box>
       <a-plane height="0.8" width="3" position="0 1.127 4.6" rotation="-90 0 0" color="#8f4f2f"></a-plane>
       <a-box height="1" width="0.8" depth="0.1" position="0 0.57 4.24" color="#8f4f2f"></a-box>
       <a-box height="1" width="0.8" depth="0.1" position="-0.96 0.57 4.24" color="#8f4f2f"></a-box>
       <a-box height="1" width="0.8" depth="0.1" position="0.96 0.57 4.24" color="#8f4f2f"></a-box>
-      
+
       // Table
       <a-box height="0.075" width="1.5" depth="1.5" position="0 1.1 1.75" color="#4f2f1f"></a-box>
       <a-box height="1.1" width="0.15" depth="0.15" position="0.675 0.55 1.075" color="#4f2f1f"></a-box>
       <a-box height="1.1" width="0.15" depth="0.15" position="-0.675 0.55 1.075" color="#4f2f1f"></a-box>
       <a-box height="1.1" width="0.15" depth="0.15" position="0.675 0.55 2.425" color="#4f2f1f"></a-box>
       <a-box height="1.1" width="0.15" depth="0.15" position="-0.675 0.55 2.425" color="#4f2f1f"></a-box>
-      
+
       // Chairs
       <a-cylinder height="0.5" radius="0.05" position="0.4 0.25 1" rotation="-10 0 10" color="#4f2f1f"></a-cylinder>
       <a-cylinder height="0.5" radius="0.05" position="-0.4 0.25 1" rotation="-10 0 -10" color="#4f2f1f"></a-cylinder>
